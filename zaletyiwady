@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Wady i zalety elektrowni wiatrowych</title>
+    <style>
+        body {
+            background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/01/tree-736888_960_720.jpg');
+            background-size: cover;
+            color: navajowhite; /* zmiana koloru czcionki na biały */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: auto; /* wyśrodkowanie obrazka */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wady i zalety elektrowni wiatrowych</h1>
+    </header>
+
+    <main>
+        <section>
+            <img src="https://cdn.midjourney.com/79d297b0-b8d2-48b9-b92d-08d80c0e99c9/grid_0.png" alt="Elektrownie wiatrowe">
+            <h2>Zalety</h2>
+            <ul>
+                <li>Energia wiatru jest źródłem odnawialnym, co oznacza, że elektrownie wiatrowe nie zużywają paliw kopalnych i nie emitują zanieczyszczeń do atmosfery.</li>
+                <li>
+                    Elektrownie wiatrowe są bardzo wydajne i
+                    mogą produkować dużą ilość energii elektrycznej, co pozwala na zaspokojenie zapotrzebowania na energię w dużej skali.
+                </li>
+                <li>Energia wiatru jest dostępna w większości regionów na świecie, co oznacza, że elektrownie wiatrowe mogą być zainstalowane w wielu miejscach i przyczyniać się do zaspokojenia lokalnych potrzeb energetycznych.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Wady</h2>
+            <ul>
+                <li>Elektrownie wiatrowe mogą być uważane za nieestetyczne, co może wpływać na krajobraz i turystykę.</li>
+                <li>Budowa i utrzymanie elektrowni wiatrowych wymaga dużych nakładów finansowych, co może stanowić wyzwanie dla mniejszych przedsiębiorstw.</li>
+                <li>
+                    Elektrownie wiatrowe są zależne od warunków pogodowych, co oznacza, że nie zawsze mogą produkować energię elektryczną w wystarczającej ilości.
+                </li>
+            </ul>
+        </section>
+    </main>
+
+</body>
