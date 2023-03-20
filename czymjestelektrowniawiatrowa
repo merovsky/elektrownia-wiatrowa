@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Elektrownia wiatrowa - informacje</title>
+    <style>
+        body {
+            background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/01/tree-736888_960_720.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h1, h2, p, li {
+            color: navajowhite;
+            font-weight: 16;
+            font-size: 2rem;
+        }
+    </style>
+
+</head>
+<body>
+    <h2>CZYM JEST ELEKTROWNIA WIATROWA?</h2>
+    <br />
+    <img src="https://cdn.pixabay.com/photo/2022/11/26/20/22/windmill-7618372_960_720.jpg" alt="Elektrownia wiatrowa" width="600" height="400">
+    <br />
+    <br />
+    <li>Elektrownia wiatrowa to instalacja wytwarzająca energię elektryczną z siły wiatru. Składa się ona z wieży,</li>
+    <li>na której umieszczone są turbiny wiatrowe, oraz urządzeń elektrycznych służących do przetwarzania energii mechanicznej</li>
+    <li>w energię elektryczną. Elektrownie wiatrowe są często wykorzystywane jako źródła energii odnawialnej, ponieważ wiatrów</li>
+    <li>jest wiele na całym świecie i nie emitują one szkodliwych substancji do atmosfery. Wraz z rosnącym zainteresowaniem</li>
+    <li>energią odnawialną, elektrownie wiatrowe stają się coraz bardziej popularne i coraz częściej wykorzystywane w</li>
+    <li>produkcji energii elektrycznej.</li>
+    <br>
+    <li>Elektrownie wiatrowe to urządzenia wykorzystujące energię wiatru do produkcji energii elektrycznej. Składają się z</li>
+    <li>serii wirników zamontowanych na wysokich wieżach, które obracają się wokół osi poziomej lub pionowej. Wiatr wpada w</li>
+    <li>wirniki, powodując ich obrót, a siła kinetyczna generowana przez obracające się wirniki jest zamieniana na energię</li>
+    <li>elektryczną przez generator prądu stałego, który jest połączony z wirnikami za pośrednictwem przekładni.</li>
+    <br>
+    <li>Elektrownie wiatrowe są źródłem energii odnawialnej, ponieważ wiatr jest zasobem naturalnym, który nigdy się nie wyczerpuje</li>
+    <li>i zawsze jest dostępny. Dzięki temu elektrownie wiatrowe są bardziej przyjazne dla środowiska niż elektrownie oparte na</li>
+    <li>spalaniu paliw kopalnych, ponieważ nie emitują zanieczyszczeń do atmosfery.</li>
+    <br>
+    <li>Elektrownie wiatrowe mogą być instalowane zarówno na lądzie, jak i na morzu, a ich rozmiary mogą się różnić od niewielkich</li>
+    <li>turbin o mocy kilku kilowatów po olbrzymie farmy wiatrowe z setkami turbin o mocy kilku megawatów każda. Elektrownie wiatrowe</li>
+    <li>są coraz bardziej popularne na całym świecie jako źródło czystej energii, a ich wykorzystanie przyczynia się do zmniejszenia</li>
+    <li>uzależnienia od paliw kopalnych i walki z globalnym ociepleniem.</li>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <li>Istnieją różne typy turbin wiatrowych, z których każdy ma swoje własne cechy i zastosowania.</li>
+    <li>Oto kilka najważniejszych rodzajów turbin wiatrowych:</li>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <img src="https://a.allegroimg.com/original/1ea41f/968a3d3247f69023f37f05f73e48" alt="HAWT" width="600" height="400">
+    <li>1. Turbiny wiatrowe poziome osi (HAWT) - to najbardziej powszechny rodzaj turbin wiatrowych.</li>
+    <li>Ich konstrukcja składa się z łopat umieszczonych na poziomej osi, która obraca się wraz z wiatrem.</li>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <img src="https://a.allegroimg.com/s1024/0c4098/d20e89e14d46a416dbdfbe5b1681" alt="VAWT" width="600" height="400">
+    <li>2. Turbiny wiatrowe pionowe osi (VAWT) - to typ turbin wiatrowych, w których łopaty są umieszczone</li>
+    <li>na pionowej osi. Są one mniej skomplikowane w budowie niż turbiny HAWT i mogą być łatwiejsze w obsłudze.</li>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <img src="https://konto.chip.pl/uploads/2022/10/turbina.jpg" alt="BLWT" width="600" height="400">
+    <li>3. Turbiny wiatrowe bezłopatkowe (BLWT) - to rodzaj turbiny wiatrowej, w której łopaty zostały</li>
+    <li>zastąpione przez cylindryczną strukturę zwaną diffuserem. Są one bardziej skuteczne w prądach</li>
+    <li>powietrza o niskiej prędkości.</li>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <img src="https://montoguequiz.com/wp-content/uploads/shutterstock_113202973-scaled.jpg" alt="VART" width="600" height="400">
+    <li>4. Turbiny wiatrowe o zmiennych łopatach (VART) - to rodzaj turbiny wiatrowej, w której łopaty</li>
+    <li>są wygięte pod różnymi kątami, co pozwala na dostosowanie ich do zmieniających się warunków wiatrowych.</li>
+    <br />
+    <br />
+    <br />
+    <li>Każdy z tych typów turbin wiatrowych ma swoje zalety i wady, a ich wybór zależy od różnych czynników,</li>
+    <li>takich jak miejsce instalacji, warunki wiatrowe i potrzeby energetyczne.</li>
+
+
+</body>
+</html>
