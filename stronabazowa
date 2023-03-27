@@ -22,74 +22,79 @@
         }
     </style>
 </head>
-<body>
-    <br />
+<div id="openweathermap-widget-21"></div>
+<script src='//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js'></script>
+<script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = []; window.myWidgetParam.push({ id: 21, cityid: '3090048', appid: '2475778079c490e19785b117f7b5ead2', units: 'metric', containerid: 'openweathermap-widget-21', }); (function () { var script = document.createElement('script'); script.async = true; script.charset = "utf-8"; script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js"; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s); })();</script>
+</body>
 
 
-    <main>
-        <section>
-            <main>
-                <section>
-                    <h2>CZYM JEST ELEKTROWNIA WIATROWA?</h2>
-                    <br />
-                    <img src="https://cdn.pixabay.com/photo/2022/11/26/20/22/windmill-7618372_960_720.jpg" alt="Elektrownia wiatrowa" width="1200" height="800">
+<br />
 
-                    <p>
-                        <li>
-                            Elektrownia wiatrowa to rodzaj elektrowni, w której energia elektryczna wytwarzana
-                            <br />jest z wykorzystaniem energii kinetycznej wiatru.Elektrownie wiatrowe składają się
-                            <br />z wirnika, generatora oraz wieży. Wirnik to element, który zamienia energię kinetyczną
-                            <br />wiatru na ruch obrotowy. Ruch ten jest przekazywany na generator, który przetwarza go
-                            <br />na energię elektryczną. Wieża służy do umieszczenia wirnika i generatora na odpowiedniej
-                            <br /> wysokości, aby uzyskać jak największą moc wyjściową.
-                        </li>
-                        <br />
 
-                        <a href="http://localhost:1893/czymjestelektrownia.html">Kliknij aby przenieść się do "Czym jest elektrownia wiatrowa?"</a>
+<main>
+    <section>
+        <main>
+            <section>
+                <h2>CZYM JEST ELEKTROWNIA WIATROWA?</h2>
+                <br />
+                <img src="https://cdn.pixabay.com/photo/2022/11/26/20/22/windmill-7618372_960_720.jpg" alt="Elektrownia wiatrowa" width="1200" height="800">
 
-                        <br />
-                        <br />
-                    </p>
-                </section>
-
-                <section>
-                    <h2>ZALETY I WADY ELEKTROWNI WIATROWEJ</h2>
-                    <br />
-                    <img src="https://cdn.midjourney.com/79d297b0-b8d2-48b9-b92d-08d80c0e99c9/grid_0.png" alt="Zalety elektrowni wiatrowych" width="1200" height="800">
-                    <br />
-                    <br />
-
+                <p>
                     <li>
-                        Energia wiatru jest źródłem odnawialnym i nieemitującym dwutlenku węgla.
-                        <br />Elektrownie wiatrowe zajmują niewielką powierzchnię i nie zanieczyszczają ziemi.
-                        <br />Wiatr jest dostępny niemalże wszędzie i nie jest uzależniony od importu.
-                        <br />Koszty eksploatacji elektrowni wiatrowych są relatywnie niskie.
+                        Elektrownia wiatrowa to rodzaj elektrowni, w której energia elektryczna wytwarzana
+                        <br />jest z wykorzystaniem energii kinetycznej wiatru.Elektrownie wiatrowe składają się
+                        <br />z wirnika, generatora oraz wieży. Wirnik to element, który zamienia energię kinetyczną
+                        <br />wiatru na ruch obrotowy. Ruch ten jest przekazywany na generator, który przetwarza go
+                        <br />na energię elektryczną. Wieża służy do umieszczenia wirnika i generatora na odpowiedniej
+                        <br /> wysokości, aby uzyskać jak największą moc wyjściową.
                     </li>
                     <br />
-                    <a href="http://localhost:1893/wadyzalety.html">Kliknij aby przenieść się do "Zalet i wad energetyki wiatrowej"</a>
+
+                    <a href="http://localhost:1893/czymjestelektrownia.html">Kliknij aby przenieść się do "Czym jest elektrownia wiatrowa?"</a>
 
                     <br />
                     <br />
-                    <br />
+                </p>
+            </section>
 
-                </section>
-                <section>
-                    <h2>PRZYKŁADOWA ELEKTROWNIA WIATROWA W POLSCE</h2>
-                    <br />
-                    <img src="https://promet-plast.pl/wp-content/uploads/2018/11/firma-z-wiatrakami-2-1024x724.jpg" alt="Przykładowa elektrownia wiatrowa w Polsce" width="1200" height="800">
-                    <br />
-                    <br />
-                    <p>
-                        <li>Jednym z przykładów elektrowni wiatrowych w Polsce jest Elektrownia Wiatrowa</li>
-                        <li>w Gaju Oławskim, którą mieliśmy przyjemność całą grupą w ramach studiów zobaczyć</li>
-                        <li>na 5 semestrze studiów. Znajduje się ona w województwie dolnośląskim i jej moc wynosi</li>
-                        <li>około 3MW. Jej dodatkowym atutem jest jednoczesne wykorzystanie energii słonecznej</li>
-                        <li>oraz wodorowej w jednym miejscu. Elektrownia ta jest stosunkowo nowa, gdyż powstała w 2012r.</li>
-                        <br>
-                        <a href="http://localhost:1893/gajolawski.html">Kliknij aby przenieść się do "Elektrowni - Gaj Oławski"</a>
-                    </p>
-                </section>
+            <section>
+                <h2>ZALETY I WADY ELEKTROWNI WIATROWEJ</h2>
+                <br />
+                <img src="https://cdn.midjourney.com/79d297b0-b8d2-48b9-b92d-08d80c0e99c9/grid_0.png" alt="Zalety elektrowni wiatrowych" width="1200" height="800">
+                <br />
+                <br />
 
-            </main>
-</body>
+                <li>
+                    Energia wiatru jest źródłem odnawialnym i nieemitującym dwutlenku węgla.
+                    <br />Elektrownie wiatrowe zajmują niewielką powierzchnię i nie zanieczyszczają ziemi.
+                    <br />Wiatr jest dostępny niemalże wszędzie i nie jest uzależniony od importu.
+                    <br />Koszty eksploatacji elektrowni wiatrowych są relatywnie niskie.
+                </li>
+                <br />
+                <a href="http://localhost:1893/wadyzalety.html">Kliknij aby przenieść się do "Zalet i wad energetyki wiatrowej"</a>
+
+                <br />
+                <br />
+                <br />
+
+            </section>
+            <section>
+                <h2>PRZYKŁADOWA ELEKTROWNIA WIATROWA W POLSCE</h2>
+                <br />
+                <img src="https://promet-plast.pl/wp-content/uploads/2018/11/firma-z-wiatrakami-2-1024x724.jpg" alt="Przykładowa elektrownia wiatrowa w Polsce" width="1200" height="800">
+                <br />
+                <br />
+                <p>
+                    <li>Jednym z przykładów elektrowni wiatrowych w Polsce jest Elektrownia Wiatrowa</li>
+                    <li>w Gaju Oławskim, którą mieliśmy przyjemność całą grupą w ramach studiów zobaczyć</li>
+                    <li>na 5 semestrze studiów. Znajduje się ona w województwie dolnośląskim i jej moc wynosi</li>
+                    <li>około 3MW. Jej dodatkowym atutem jest jednoczesne wykorzystanie energii słonecznej</li>
+                    <li>oraz wodorowej w jednym miejscu. Elektrownia ta jest stosunkowo nowa, gdyż powstała w 2012r.</li>
+                    <br>
+                    <a href="http://localhost:1893/gajolawski.html">Kliknij aby przenieść się do "Elektrowni - Gaj Oławski"</a>
+                </p>
+            </section>
+
+        </main>
+        </body>
 </html>
