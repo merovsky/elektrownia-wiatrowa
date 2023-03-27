@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ZALETY I WADY ELEKTROWNI WIATROWEJ</title>
+    <style>
+        body {
+            background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/01/tree-736888_960_720.jpg');
+            background-size: cover;
+            color: navajowhite; /* zmiana koloru czcionki na biały */
+            font-size: 36px;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: auto; /* wyśrodkowanie obrazka */
+            float: middle; /* przesunięcie obrazka do lewej strony */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ELEKTROWNIA WIATROWA W GAJU OŁAWSKIM</h1>
+    </header>
+
+    <main>
+        <section>
+            <img src="https://klasterenergii.pl/wp-content/uploads/2020/05/klaster-Gaj-O%C5%81awski.jpg" alt="Elektrownie wiatrowe" width="38%">
+            <br />
+     
+
+                <li>
+                    Elektrownia wiatrowa w Gaju Oławskim to projekt składający się z kilku
+                    <br />turbin wiatrowych, które zamontowano na obszarze o powierzchni około
+                    <br />120 hektarów, znajdującym się na południowy zachód od miasta Wrocław,
+                    <br />niedaleko wsi Gaj Oławski.
+                    <br />
+                    <br />Elektrownia składa się z 21 turbin wiatrowych, które są zamontowane na
+                    <br />masztach o wysokości 100 metrów, a ich średnica wirnika wynosi 93 metry.
+                    <br />Turbiny wiatrowe są typu Enercon E-101 o mocy 3,05 MW każda, co daje
+                    <br />łączną moc elektrowni 63,9 MW. Elektrownia wiatrowa w Gaju Oławskim
+                    <br />jest jedną z największych elektrowni wiatrowych w Polsce.
+                    <br />
+                    <br />Turbiny wiatrowe są wyposażone w specjalne sensory, które rejestrują
+                    <br />kierunek i prędkość wiatru. W momencie, gdy wiatr osiąga prędkość co
+                    <br />najmniej 3,5 metra na sekundę, turbiny zaczynają się obracać, a wytwarzana
+                    <br />energia elektryczna jest przesyłana do sieci elektroenergetycznej.
+                    <br />
+                    <br />Elektrownia wiatrowa w Gaju Oławskim jest zasilana z sieci
+                    <br />elektroenergetycznej, ale dzięki zastosowaniu energii odnawialnej,
+                    <br />przyczynia się do zmniejszenia emisji gazów cieplarnianych i poprawy
+                    <br />jakości powietrza w regionie.
+                    <br />
+                    <br />Elektrownia wiatrowa w Gaju Oławskim została oddana do użytku w 2013r.
+                    <br />i od tego czasu wytwarza energię elektryczną, która jest wykorzystywana
+                    <br />przez mieszkańców Wrocławia i okolic.
+                </li>
+        
+        </section>
+      
+
+        <section>
+
+            <img src="https://windeurope.org/wp-content/uploads/files/about-wind/campaigns/2020-successes/ge-re/ge-re-logo.svg" alt="GE ENERGY" width="38%">
+        
+            <h2>GE RENEWABLE ENERGY</h2>
+           
+                <li>
+                    Elektrownia wiatrowa w Gaju Oławskim jest własnością spółki zależnej
+                    <br />GE Renewable Energy, należącej do amerykańskiej korporacji General Electric.
+                    <br />GE Renewable Energy to wiodący producent rozwiązań dla energetyki odnawialnej,
+                    <br />oferujący szeroki zakres produktów i usług dla sektora wiatrowego, słonecznego,
+                    <br />wodnego i energetyki geotermalnej.
+                    <br />
+                    <br />Firma GE Renewable Energy oferuje swoim klientom m.in. turbin wiatrowych,
+                    <br />rozwiązania do monitorowania i zarządzania sieciami elektroenergetycznymi,
+                    <br />a także różnego rodzaju usługi serwisowe, takie jak naprawy, modernizacje,
+                    <br />konserwacje i optymalizacje systemów wiatrowych.
+                    <br />
+                    <br />GE Renewable Energy jest obecna na rynku odnawialnych źródeł energii od
+                    <br />ponad 100 lat i działa w ponad 80 krajach na całym świecie. W ciągu
+                    <br />ostatnich lat firma znacznie zwiększyła swoje zaangażowanie w rozwój
+                    <br />energii odnawialnej, inwestując w rozwój nowych technologii i zwiększając
+                    <br />udział odnawialnych źródeł energii w swoim portfelu biznesowym.
+                    <br />
+                    <br />GE Renewable Energy jest również zaangażowana w projekty badawcze i
+                    <br />rozwojowe, mające na celu zwiększenie wydajności i konkurencyjności
+                    <br />energii odnawialnej oraz poprawę jakości życia na całym świecie
+                    <br />poprzez ograniczenie emisji gazów cieplarnianych i zanieczyszczeń
+                    <br />powietrza.
+                    <br />
+                    <br />W sumie, firma GE Renewable Energy jest ważnym graczem na rynku
+                    <br />energetyki odnawialnej, a elektrownia wiatrowa w Gaju Oławskim to
+                    <br />tylko jeden z wielu projektów, które pomagają w tworzeniu
+                    <br />zrównoważonego przemysłu energetycznego na świecie.
+                </li>
+        
+        </section>
+    </main>
+
+</body>
