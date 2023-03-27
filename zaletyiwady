@@ -8,6 +8,7 @@
             background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/01/tree-736888_960_720.jpg');
             background-size: cover;
             color: navajowhite; /* zmiana koloru czcionki na biały */
+            font-size: 18px;
         }
 
         img {
@@ -25,26 +26,60 @@
 
     <main>
         <section>
-            <img src="https://cdn.midjourney.com/79d297b0-b8d2-48b9-b92d-08d80c0e99c9/grid_0.png" alt="Elektrownie wiatrowe">
-            <h2>Zalety</h2>
+            <img src="https://cdn.midjourney.com/79d297b0-b8d2-48b9-b92d-08d80c0e99c9/grid_0.png" alt="Elektrownie wiatrowe" width="20%">
+            <h1>Zalety elektrowni wiatrowych:</h1>
             <ul>
-                <li>Energia wiatru jest źródłem odnawialnym, co oznacza, że elektrownie wiatrowe nie zużywają paliw kopalnych i nie emitują zanieczyszczeń do atmosfery.</li>
-                <li>
-                    Elektrownie wiatrowe są bardzo wydajne i
-                    mogą produkować dużą ilość energii elektrycznej, co pozwala na zaspokojenie zapotrzebowania na energię w dużej skali.
-                </li>
-                <li>Energia wiatru jest dostępna w większości regionów na świecie, co oznacza, że elektrownie wiatrowe mogą być zainstalowane w wielu miejscach i przyczyniać się do zaspokojenia lokalnych potrzeb energetycznych.</li>
+                <li>1. Źródło energii odnawialnej: Elektrownie wiatrowe wykorzystują wiatr jako źródło energii,
+                <br />co oznacza, że nie zużywają paliw kopalnych i nie emitują zanieczyszczeń do atmosfery.
+                <br />Jest to korzystne dla środowiska naturalnego i zmniejsza emisję gazów cieplarnianych.</li>
+                <br />
+               
+                <li>2. Niska emisja dwutlenku węgla: Elektrownie wiatrowe generują energię elektryczną bez
+                    <br />emisji dwutlenku węgla. Jest to szczególnie istotne w kontekście walki ze zmianami
+                    <br />klimatu i globalnym ociepleniem.</li>
+                    <br />
+                   
+                <li>3. Niskie koszty eksploatacji: Po zainstalowaniu elektrowni wiatrowych, koszty jej
+                <br />eksploatacji są stosunkowo niskie, co pozwala na długoterminowe korzystanie z tego
+                <br />źródła energii.</li>
+                    <br />
+                  
+                <li>4. Elastyczność lokalizacji: Elektrownie wiatrowe mogą być zainstalowane na wiele różnych
+                    <br />terenach, zarówno na lądzie, jak i na morzu. Oznacza to, że elektrownie wiatrowe mogą
+                    <br />być budowane w różnych regionach, co pozwala na zaspokojenie lokalnych potrzeb
+                    <br /> energetycznych.</li>
+                <br />
+             
+                <li>5. Wysoka wydajność: Elektrownie wiatrowe są bardzo wydajne i mogą produkować dużą
+                    <br />ilość energii elektrycznej, co pozwala na zaspokojenie zapotrzebowania na energię
+                    <br />w dużej skali.</li>
             </ul>
         </section>
-
+      
         <section>
-            <h2>Wady</h2>
+            <h2>Wady elektrowni wiatrowych:</h2>
             <ul>
-                <li>Elektrownie wiatrowe mogą być uważane za nieestetyczne, co może wpływać na krajobraz i turystykę.</li>
-                <li>Budowa i utrzymanie elektrowni wiatrowych wymaga dużych nakładów finansowych, co może stanowić wyzwanie dla mniejszych przedsiębiorstw.</li>
-                <li>
-                    Elektrownie wiatrowe są zależne od warunków pogodowych, co oznacza, że nie zawsze mogą produkować energię elektryczną w wystarczającej ilości.
-                </li>
+                <li>1. Zależność od warunków pogodowych: Elektrownie wiatrowe są uzależnione od siły
+                <br />wiatru, co oznacza, że ich wydajność może znacznie się zmieniać w 
+                <br />od warunków pogodowych.</li>
+                <br />
+          
+                <li>2. Wpływ na krajobraz: Niektórzy ludzie uważają, że elektrownie wiatrowe są nieestetyczne</li>
+                i wpływają negatywnie na krajobraz, co może mieć wpływ na turystykę.</li>
+                <br />
+                <br />
+                <li>3. Wysokie koszty inwestycyjne: Budowa i utrzymanie elektrowni wiatrowych wymaga </li>
+                dużych nakładów finansowych, co może stanowić wyzwanie dla mniejszych przedsiębiorstw.</li>
+                <br />
+                <br />
+                <li>4. Hałas: Elektrownie wiatrowe wydzielają hałas, co może być uciążliwe dla okolicznych</li>
+                mieszkańców.</li>
+                <br />
+                <br />
+                <li>5. Wpływ na dzikie zwierzęta: Elektrownie wiatrowe mogą wpływać na lokalną populację </li>
+                dzikich zwierząt poprzez zakłócenie ich środowiska naturalnego i korytarzy migracyjnych.</li>
+                <br />
+                <br />
             </ul>
         </section>
     </main>
