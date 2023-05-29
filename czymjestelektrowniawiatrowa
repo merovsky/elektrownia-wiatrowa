@@ -104,5 +104,34 @@
     <li>Każdy z tych typów turbin wiatrowych ma swoje zalety i wady, a ich wybór zależy od różnych czynników,</li>
     <li>takich jak miejsce instalacji, warunki wiatrowe i potrzeby energetyczne.</li>
 
+
+
+
+</body>
+
+
+<br />
+
+
+<br />
+<head>
+    <title>Zmiana koloru odnośnika</title>
+    <style>
+        /* Zmiana koloru odnośnika na czerwony */
+        a {
+            color: red;
+            font-size: 36px;
+        }
+        }
+    </style>
+</head>
+<body>
+    <a href="file:///C:/xampp/htdocs/baza.html">Kliknij aby przenieść się do "Strony Głównej"</a>
+</body>
+
+<br />
+    </section>
+    </main>
+
 </body>
 </html>
