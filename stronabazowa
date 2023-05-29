@@ -22,10 +22,85 @@
         }
     </style>
 </head>
-<div id="openweathermap-widget-21"></div>
-<script src='//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js'></script>
-<script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = []; window.myWidgetParam.push({ id: 21, cityid: '3090048', appid: '2475778079c490e19785b117f7b5ead2', units: 'metric', containerid: 'openweathermap-widget-21', }); (function () { var script = document.createElement('script'); script.async = true; script.charset = "utf-8"; script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js"; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s); })();</script>
+<head>
+    <title>Widget pogodowy</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+    <style>
+        /* Styl widgetu */
+        .weather-widget {
+            background-color: navy;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            color: navajowhite;
+            font-family: 'Roboto', sans-serif;
+            max-width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+            .weather-widget h2 {
+                margin-top: 0;
+                font-size: 24px;
+            }
+
+            .weather-widget h3 {
+                margin-top: 0;
+                font-size: 24px;
+            }
+
+            .weather-widget p {
+                margin-bottom: 10px;
+                font-size: 16px;
+            }
+
+            .weather-widget .forecast {
+                margin-top: 20px;
+                font-weight: bold;
+            }
+    </style>
+</head>
+<body>
+    <div class="weather-widget">
+        <h2 style="font-size: 24px;">Pogoda w Opolu</h2>
+        <p id="location"></p>
+        <p id="temperature"></p>
+        <p id="description"></p>
+        <div class="forecast" id="forecast"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // Pobieranie danych pogodowych z API
+        $(document).ready(function () {
+            var apiKey = '2475778079c490e19785b117f7b5ead2';
+            var apiUrl = 'https://api.openweathermap.org/data/2.5/forecast?q=Opole&appid=' + apiKey;
+
+            $.getJSON(apiUrl, function (data) {
+                var location = data.city.name;
+                var currentTemperature = Math.round(data.list[0].main.temp - 273.15); // Konwersja z kelwinów na stopnie Celsiusza
+                var currentDescription = data.list[0].weather[0].description;
+                var forecastData = data.list.slice(1, 6); // Pobieranie danych dla kolejnych 5 dni
+
+                $('#location').text('Lokalizacja: ' + location);
+                $('#temperature').text('Aktualna temperatura: ' + currentTemperature + '°C');
+                $('#description').text('Aktualna pogoda: ' + currentDescription);
+
+                var forecastHTML = '';
+                forecastData.forEach(function (forecast) {
+                    var forecastDate = new Date(forecast.dt_txt);
+                    var forecastTemperature = Math.round(forecast.main.temp - 273.15);
+                    var forecastDescription = forecast.weather[0].description;
+
+                    forecastHTML += '<p>' + forecastDate.toLocaleDateString() + ': ' + forecastTemperature + '°C, ' + forecastDescription + '</p>';
+                });
+
+                $('#forecast').html('<h3 style="font-size: 24px;">Prognoza na nadchodzące dni:</h3>' + forecastHTML);
+            });
+        });
+    </script>
 </body>
+</html>
 
 
 <br />
@@ -49,8 +124,15 @@
                         <br /> wysokości, aby uzyskać jak największą moc wyjściową.
                     </li>
                     <br />
-
-                    <a href="http://localhost:1893/czymjestelektrownia.html">Kliknij aby przenieść się do "Czym jest elektrownia wiatrowa?"</a>
+                    <style>
+                        /* Zmiana koloru odnośnika na czerwony */
+                        a {
+                            color: red;
+                            font-size: 36px;
+                        }
+                        }
+                    </style>
+                    <a href="file:///C:/xampp/htdocs/czymjestelektrownia.html">Kliknij aby przenieść się do "Czym jest elektrownia wiatrowa?"</a>
 
                     <br />
                     <br />
@@ -71,7 +153,7 @@
                     <br />Koszty eksploatacji elektrowni wiatrowych są relatywnie niskie.
                 </li>
                 <br />
-                <a href="http://localhost:1893/wadyzalety.html">Kliknij aby przenieść się do "Zalet i wad energetyki wiatrowej"</a>
+                <a href="file:///C:/xampp/htdocs/wadyzalety.html">Kliknij aby przenieść się do "Zalet i wad energetyki wiatrowej"</a>
 
                 <br />
                 <br />
@@ -91,11 +173,13 @@
                     <li>około 3MW. Jej dodatkowym atutem jest jednoczesne wykorzystanie energii słonecznej</li>
                     <li>oraz wodorowej w jednym miejscu. Elektrownia ta jest stosunkowo nowa, gdyż powstała w 2012r.</li>
                     <br>
-                    <a href="http://localhost:1893/gajolawski.html">Kliknij aby przenieść się do "Elektrowni - Gaj Oławski"</a>
+                    <a href="file:///C:/xampp/htdocs/gajolawski.html">Kliknij aby przenieść się do "Elektrowni - Gaj Oławski"</a>
                 </p>
             </section>
 
         </main>
         </body>
-        
-</html>
+
+
+
+        </html>
