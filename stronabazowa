@@ -20,6 +20,12 @@
         main {
             text-align: center; /* wyśrodkowanie treści */
         }
+        table {
+
+
+            color: navajowhite;
+        }
+    
     </style>
 </head>
 <head>
@@ -132,7 +138,7 @@
                         }
                         }
                     </style>
-                    <a href="file:///C:/xampp/htdocs/czymjestelektrownia.html">Kliknij aby przenieść się do "Czym jest elektrownia wiatrowa?"</a>
+                    <a href="http://localhost/czymjestelektrownia.html">Kliknij aby przenieść się do "Czym jest elektrownia wiatrowa?"</a>
 
                     <br />
                     <br />
@@ -153,7 +159,7 @@
                     <br />Koszty eksploatacji elektrowni wiatrowych są relatywnie niskie.
                 </li>
                 <br />
-                <a href="file:///C:/xampp/htdocs/wadyzalety.html">Kliknij aby przenieść się do "Zalet i wad energetyki wiatrowej"</a>
+                <a href="http://localhost/wadyzalety.html">Kliknij aby przenieść się do "Zalet i wad energetyki wiatrowej"</a>
 
                 <br />
                 <br />
@@ -173,10 +179,58 @@
                     <li>około 3MW. Jej dodatkowym atutem jest jednoczesne wykorzystanie energii słonecznej</li>
                     <li>oraz wodorowej w jednym miejscu. Elektrownia ta jest stosunkowo nowa, gdyż powstała w 2012r.</li>
                     <br>
-                    <a href="file:///C:/xampp/htdocs/gajolawski.html">Kliknij aby przenieść się do "Elektrowni - Gaj Oławski"</a>
+                    <a href="http://localhost/gajolawski.html">Kliknij aby przenieść się do "Elektrowni - Gaj Oławski"</a>
                 </p>
             </section>
 
+<br>
+
+<br>
+
+            <div id="content" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <h2 style="color: navajowhite;">PRODUKCJA ENERGII Z WIATRU ORAZ PV</h2>
+
+<br>
+
+    <?php
+                $servername = "localhost";
+                $username = "ksawery";
+                $password = "juvetoszczury";
+                $dbname = "csv_db 6";
+
+                // Create connection
+                $conn = new mysqli($servername, $username, $password, $dbname);
+                // Check connection
+                if ($conn->connect_error) {
+                die("Connection failed: " . $conn->connect_error);
+                }
+
+
+                $sql = "Select * FROM  pl_gen_wiatr_20230601_20230604_20230605003516";
+                $result = $conn->query($sql);
+
+                if ($result->num_rows > 0) {
+                echo "<table>
+                    <tr><th>DATA</th><th>GODZINA<th>GENERACJA WIATR</th><th>GENERACJA PV</th></tr>";
+                    // output data of each row
+                    while($row = $result->fetch_assoc()) {
+                    echo "
+                    <tr><td>" . $row["DATA"]. "</td><td>" . $row["GODZINA"] . "</td><td>" . $row["GENERACJA WIATR"] . "</td><td>" . $row["GENERACJA PV"] . "</td></tr>";
+
+                    }
+                    echo "
+                </table>";
+                } else {
+                echo "0 results";
+                }
+
+                $conn->close();
+                ?>
+            </div>
+
+
+
+<a href="https://www.pse.pl/dane-systemowe/funkcjonowanie-kse/raporty-dobowe-z-pracy-kse/generacja-zrodel-wiatrowych">Kliknij aby przenieść się na stronę PSE z danymi"</a>
         </main>
         </body>
 
