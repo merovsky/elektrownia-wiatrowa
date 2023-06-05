@@ -113,7 +113,7 @@
                 </style>
             </head>
             <body>
-                <a href="file:///C:/xampp/htdocs/baza.html">Kliknij aby przenieść się do "Strony Głównej"</a>
+                <a href="http://localhost/baza.php">Kliknij aby przenieść się do "Strony Głównej"</a>
             </body>
 
             <br />
@@ -125,3 +125,4 @@
     </main>
 
 </body>
+
